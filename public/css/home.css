@@ -1,0 +1,29 @@
+.movies-bg {
+    background: linear-gradient(to top, #44759256, transparent);
+    cursor: pointer;
+    transition: 0.35s ease;
+}
+
+.movies-bg:hover {
+    background: linear-gradient(to top, #44759256, #44759256);
+    &img {
+        transform: scale(1.1);
+    }
+}
+
+#showsDD:hover + div,
+#moviesDD:hover + div,
+#popularsDD:hover + div {
+    opacity: 1;
+    visibility: visible;
+}
+
+.navbar-dd:hover {
+    opacity: 1;
+    visibility: visible;
+}
+
+/* .navbar-bg {
+    background-image: url(../storage/images/dg-bg4.jpg);
+    background-size: 100% 100%;
+} */
